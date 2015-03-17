@@ -14,13 +14,32 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-import webapp2
 
+#============= html page ==========================
+print"""
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>勝締威寢具後台管理系統</title>
+		<meta charset='utf-8'>
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js'></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
-class MainHandler(webapp2.RequestHandler):
-    def get(self):
-        self.response.write('Hello world!')
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
 
-app = webapp2.WSGIApplication([
-    ('/', MainHandler)
-], debug=True)
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div>
+			
+		</div>
+	</body>
+</html>
+
+"""
+
+#=========== python page =======================
+
