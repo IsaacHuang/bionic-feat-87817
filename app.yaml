@@ -21,7 +21,9 @@ handlers:
 #========== templates directory ================
 - url: /templates
   static_dir: templates
-
+- url: /index.html
+  static_files: index.html
+  upload: /templates/index.html
 #============ class directory =================
 - url: /class
   static_dir: class
