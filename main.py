@@ -34,7 +34,7 @@ print"""
 	</head>
 	<body>
 		<div>
-			
+			Main.py page test !
 		</div>
 	</body>
 </html>
