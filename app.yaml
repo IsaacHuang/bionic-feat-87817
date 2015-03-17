@@ -5,7 +5,7 @@ api_version: 1
 threadsafe: false
 #======== root directory =================
 handlers:
-- url: /
+- url: /main
   script: main.py
 #======== js directory ====================
 - url: /js
@@ -17,9 +17,9 @@ handlers:
 #========== templates directory ================
 - url: /templates
   static_dir: templates
-- url: /index.html
+- url: /
   static_files: index.html
-  upload: /templates/index.html
+  upload: index.html
 #============ class directory =================
 - url: /class
   static_dir: class
