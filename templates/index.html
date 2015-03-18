@@ -12,10 +12,53 @@
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href='/css/index.css'>
 	</head>
 	<body>
-		<div>
-			HTML Page Test !
+		<header>
+		</header>
+		<div class="nav">
+			<div class='col- col-md-2'>
+			<ul class='menu' id='list'>
+				<li id='insert'>
+					新增資料
+				</li>
+				<li id='raw-status'>
+					原物料狀態
+				</li>
+				<li id='invetory'>
+					庫存成品狀態
+				</li>
+			</ul>
+			</div>
+			<div class='col-md-10'>
+				<form id='insert_form1' name='insert_form1' action="/New.py" method="post">
+					<table>
+						<tr>
+							<td>
+								品名：
+							</td>
+
+							<td>
+								<input type='text' size='50'>
+												
+								</input>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								庫存量：
+							</td>
+							<td>
+								<input type="text" size="50">
+								</input>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
 		</div>
+		<footer>
+		</footer>
 	</body>
 </html>
