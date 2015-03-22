@@ -14,7 +14,7 @@ handlers:
 #========= css directory ====================
 - url: /css
   static_dir: css
-- url: css/index.css
+- url: /css/index.css
   static_files: index.css
   upload: index.css
 #========== templates directory ================
