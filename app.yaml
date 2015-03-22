@@ -5,6 +5,8 @@ api_version: 1
 threadsafe: false
 #======== root directory =================
 handlers:
+- url: /
+  script: login.py
 - url: /main
   script: main.py
 #======== js directory ====================
